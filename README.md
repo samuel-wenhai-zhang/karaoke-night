@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=12572370)
 # Karaoke Night
 
 For this project, you are going to create an app for a Karaoke DJ. The DJ needs to be able to have people sign up for a song as well as report out who is up next and which song they want to sing.  People should sing songs in the order in which they sign up.
