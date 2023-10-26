@@ -2,13 +2,11 @@ public class Song {
     private String title;
     private String artist;
     private String length;
-    private int index;
 
-    public Song(String title, String artist, String length, int index) {
+    public Song(String title, String artist, String length) {
         this.title = title;
         this.artist = artist;
         this.length = length;
-        this.index = index;
     }
 
     public String getTitle() {
@@ -35,16 +33,8 @@ public class Song {
         this.length = length;
     }
 
-    public int getIndex() {
-        return index;
-    }
-
-    public void setIndex(int index) {
-        this.index = index;
-    }
-
     @Override
     public String toString() {
-        return index + " - " + title + " by " + artist + "  " + length;
+        return getTitle() + " by " + getArtist() + "  " + getLength();
     }
 }
